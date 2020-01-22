@@ -1,0 +1,119 @@
+*, *:before , *:after {
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+
+    color: #fff;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: 0 !important;
+    cursor: pointer;
+}
+
+
+.get {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 16px;
+
+    padding: 13px 33px;
+
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+}
+
+ul, li {
+    display: block;
+
+    margin: 0px;
+    padding: 0px;
+
+    list-style: none;
+}
+
+h1, h2, h2, h3, h4, h5 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #555555;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 52px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: #555555;
+}
+
+/* Стили для header */
+
+.header {
+    padding: 40px 0px 260px 0px;
+
+    background:  linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #c9c9c9 url("../img/header-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+.header .main-menu {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.header .menu__link:hover {
+    color: #c7c7c7;
+}
+
+.header .menu__link:active {
+    color: #a1a1a1;
+}
+
+.header .main-titles__item_welocme {
+    margin-top: 251px;
+    margin-bottom: 20px;
+}
+
+.header .main-titles__item_tagline {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+
+    margin-bottom: 50px;
+}
+
+.header .get:hover {
+    border: 2px solid #c7c7c7;
+    color: #c7c7c7;
+}
+
+.header .get:active {
+    border: 2px solid #a1a1a1;
+    color: #a1a1a1;
+}
+
