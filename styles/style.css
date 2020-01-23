@@ -11,19 +11,11 @@ a {
 
 a:hover, a:active {
     text-decoration: none;
-
     color: #fff;
 }
 
 button {
-    padding: 0;
-    margin: 0;
-
-    background-color: transparent;
-    color: #fff;
-    border: none;
     outline: 0 !important;
-    cursor: pointer;
 }
 
 
@@ -33,7 +25,12 @@ button {
     font-size: 16px;
 
     padding: 13px 33px;
-
+    margin: 0;
+    
+    background-color: transparent;
+    color: #fff;
+    outline: 0 !important;
+    cursor: pointer;
     border: 2px solid #ffffff;
     border-radius: 2px;
 }
@@ -81,23 +78,34 @@ body {
     background-size: cover;
 }
 
-.header .main-menu {
+.header .navbar-brand {
+    font-size: 0;
+}
+
+.header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    transition: all 1s;
+}
+
+.header .navbar-nav {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 24px;
 }
 
-.header .menu__link:hover {
+.header .nav-link:hover {
     color: #c7c7c7;
 }
 
-.header .menu__link:active {
+.header .nav-link:active {
     color: #a1a1a1;
 }
 
 .header .main-titles__item_welocme {
-    margin-top: 251px;
-    margin-bottom: 20px;
+    margin: 251px 0 20px 0;
 }
 
 .header .main-titles__item_tagline {
@@ -116,4 +124,5 @@ body {
     border: 2px solid #a1a1a1;
     color: #a1a1a1;
 }
+
 
