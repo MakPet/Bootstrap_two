@@ -60,6 +60,31 @@ h1 {
     line-height: 52px;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50px;
+    height: 2px;
+    
+    margin: 0 0 23px 0;
+
+    background-color: #555555;
+    box-shadow: none;
+    border: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -125,4 +150,57 @@ body {
     color: #a1a1a1;
 }
 
+/* Стили для services */
 
+.services {
+    padding: 97px 0 95px 0;
+}
+
+.services-welcome__title {
+    margin-bottom: 27px;
+}
+
+.services-welcome__description {
+    margin-bottom: 65px;
+}
+
+.services-about {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.services-about__icon {
+    width: 90px;
+    height: 90px;
+
+    margin-bottom: 22px;
+
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+}
+
+.services-about__icon_red {
+    background-color: #c0301c;
+}
+
+.services-about__icon.icon-font::before {
+    font-size: 46px;
+    line-height: 80px;
+    color: #fff;
+}
+
+.services-about__icon.icon-code::before {
+    font-size: 46px;
+    line-height: 80px;
+    color: #c0301c;
+}
+
+.services-about__icon.icon-support::before {
+    font-size: 49px;
+    line-height: 87px;
+    color: #c0301c;
+}
+
+.services-about__heading {
+    margin-bottom: 14px;
+}
