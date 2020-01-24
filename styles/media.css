@@ -6,5 +6,9 @@
 	.header .main-titles__item_welocme {
     	margin: 85px 0 20px 0;
 	}
+
+	.services-about__item:not(:last-child) {
+		margin-bottom: 35px;
+	}
 }
 	
