@@ -10,5 +10,10 @@
 	.services-about__item:not(:last-child) {
 		margin-bottom: 35px;
 	}
+
+	.about-us .welcome-detailed-description__text:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
 }
 	
