@@ -245,6 +245,10 @@ body {
     color: #dddddd;
 }
 
+.about-us__slider__arrow.slick-disabled {
+    background-color: rgba(85, 85, 85, 0.2);
+}
+
 .about-us__slider__arrow_prev {
     left: 1.4%;
 }
