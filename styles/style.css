@@ -231,9 +231,36 @@ body {
     margin-bottom: 65px;
 }
 
+.about-us__slider__arrow {
+    width: 35px;
+    height: 38px;
+
+    position: absolute;
+    top: 33%;
+
+    background-color: #c0301c;
+    z-index: 1;
+
+    font-size: 23px;
+    color: #dddddd;
+}
+
+.about-us__slider__arrow_prev {
+    left: 1.4%;
+}
+
+.about-us__slider__arrow_next {
+    right: 1.4%;
+}
+
+.about-us__slider__arrow::before {
+    line-height: 36px;
+}
+
 .about-us .item__img {
-    max-width: 263px;
-        
+    max-width: 255px;
+    max-height: 242px;    
+  
     margin-bottom: 15px;
     
     overflow: hidden;
@@ -241,18 +268,9 @@ body {
     position: relative;
 }
 
-.about-us .item__name {
-    margin-bottom: 5px;
-}
-
-.about-us .item__position {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.about-us .item__img:hover > .img__social {
-    transform: translateY(0px);
+.about-us .item__img img{
+    width: 100%;
+    height: auto;
 }
 
 .about-us .img__social {
@@ -268,7 +286,7 @@ body {
     top: 0px;
     left: 0px;
 
-    transform: translateX(-255px);
+    transform: translateX(-260px);
     transition: linear 1s;
 }
 
@@ -303,6 +321,20 @@ body {
 .about-us .social__link.icon-linkedin {
     font-size: 17px;
     line-height: 26px;
+}
+
+.about-us .item__img:hover > .img__social {
+    transform: translateY(0px);
+}
+
+.about-us .item__name {
+    margin-bottom: 5px;
+}
+
+.about-us .item__position {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 
