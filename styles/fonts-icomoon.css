@@ -40,9 +40,6 @@
 .icon-facebook:before {
   content: "\f09a";
 }
-.icon-facebook-f:before {
-  content: "\f09a";
-}
 .icon-google-plus:before {
   content: "\f0d5";
 }
@@ -58,23 +55,8 @@
 .icon-mobile:before {
   content: "\f10b";
 }
-.icon-mobile-phone:before {
-  content: "\f10b";
-}
 .icon-code:before {
   content: "\f121";
-}
-.icon-life-bouy:before {
-  content: "\f1cd";
-}
-.icon-life-buoy:before {
-  content: "\f1cd";
-}
-.icon-life-ring:before {
-  content: "\f1cd";
-}
-.icon-life-saver:before {
-  content: "\f1cd";
 }
 .icon-support:before {
   content: "\f1cd";
