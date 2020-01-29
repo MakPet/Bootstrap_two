@@ -1,3 +1,14 @@
+@media (max-width: 1200px) {
+	.about-us__slider__arrow_prev {
+    	left: 3.4%;
+	}
+
+	.about-us__slider__arrow_next {
+    	right: 3.4%;
+	}
+}
+
+
 @media (max-width: 992px) {
 	.header {
 		padding: 40px 0px 85px 0px;
@@ -14,6 +25,12 @@
 	.about-us .welcome-detailed-description__text:not(:last-child) {
 		margin-bottom: 35px;
 	}
+	.about-us__slider__arrow_prev {
+    	left: 7.4%;
+	}
 
+	.about-us__slider__arrow_next {
+    	right: 7.4%;
+	}
 }
 	
