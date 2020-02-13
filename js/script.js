@@ -1,4 +1,32 @@
 $(document).ready(function(){
+	$('.lastest-work__nav-link').click(function(){
+		// reset active class
+		$('.lastest-work__nav-link').removeClass("active");
+		// add active class to selected
+		$(this).addClass("active");
+		// return needed to make function work
+		return false;
+	});
+	
+	
+	$(function() {
+		// create an empty variable
+		var selectedClass = "";
+		// call function when item is clicked
+		$(".lastest-work__nav-link").click(function(){
+			// assigns class to selected item
+			selectedClass = $(this).attr("data-rel");
+			// fades out all portfolio items
+			$(".demonstration-lastest-work .demonstration-lastest-work__inner").fadeOut(300);
+			// fades in selected category
+			$(".demonstration-lastest-work .demonstration-lastest-work__inner strategy" + selectedClass).delay(300).fadeIn(300);
+		});
+	});
+  
+}); // document ready
+
+
+$(document).ready(function(){
   	$('.about-us__slider').slick({
   		infinite: false,
   		slidesToShow: 4,
@@ -34,34 +62,3 @@ $(document).ready(function(){
 	    ]
 	});
 });
-
-'use strict';
-
-function Tabs() {
-  var bindAll = function() {
-    var menuElements = document.querySelectorAll('[data-tab]');
-    for(var i = 0; i < menuElements.length ; i++) {
-      menuElements[i].addEventListener('click', change, false);
-    }
-  }
-
-  var clear = function() {
-    var menuElements = document.querySelectorAll('[data-tab]');
-    for(var i = 0; i < menuElements.length ; i++) {
-      menuElements[i].classList.remove('active');
-      var id = menuElements[i].getAttribute('data-tab');
-      document.getElementById(id).classList.remove('active');
-    }
-  }
-
-  var change = function(e) {
-    clear();
-    e.target.classList.add('active');
-    var id = e.currentTarget.getAttribute('data-tab');
-    document.getElementById(id).classList.add('active');
-  }
-
-  bindAll();
-}
-
-var connectTabs = new Tabs();
