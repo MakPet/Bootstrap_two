@@ -373,7 +373,7 @@ body {
     color: #424242;
 }
 
-.lastest-work__nav-link:active {
+.lastest-work__nav-link.active {
     color: #c0301c;
 }
 
@@ -483,12 +483,4 @@ body {
     content: "\f105";
 
     margin-left: 12px;
-}
-
-.b-tab {
-    display: none;
-}
-
-.b-tab.active {
-    display: block;
 }
