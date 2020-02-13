@@ -285,7 +285,7 @@ body {
     position: relative;
 }
 
-.about-us .item__img img{
+.about-us .item__img img {
     width: 100%;
     height: auto;
 }
@@ -354,6 +354,8 @@ body {
     line-height: 24px;
 }
 
+/* Стили для lastest-work */
+
 .lastest-work {
     padding: 97px 0 95px 0;
 }
@@ -363,6 +365,7 @@ body {
 }
 
 .lastest-work__nav-link {
+    padding: 0 10px;
     color: #555555;
 }
 
@@ -380,7 +383,10 @@ body {
 
 .demonstration-lastest-work__item {
     max-width: 350px;
+
     position: relative;
+    
+    overflow: hidden;
 }
 
 .demonstration-lastest-work__item::before {
@@ -412,24 +418,28 @@ body {
     width: 100%;
     height: 100%;
 
-    padding: 97px 10px 90px 10px;
+    padding: 101px 10px 10px 10px;
 
     background-color: rgba(191, 48, 28, 0.7);
     color: #fff;
-    /*
+
     transform: translateX(-351px);
     transition: linear 1s;
-    */
+
+}
+
+.demonstration-lastest-work__item:hover .demonstration-lastest-work__link-wrapper {
+    transform: translateX(0px);
 }
 
 .demonstration-lastest-work__name-work {
-    margin-bottom: 7px;
+    margin-bottom: 4px;
 
     color: #fff;
 }
 
 .demonstration-lastest-work__name-category {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 
     font-size: 12px;
     font-weight: 400;
@@ -437,6 +447,9 @@ body {
 }
 
 .demonstration-lastest-work__link {
+    display: inline-flex;
+    align-items: center;
+
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -444,7 +457,7 @@ body {
     background-color: #fff;
     color: #c0301c;
 
-    padding: 9px 22px;
+    padding: 7px 22px;
 }
 
 .demonstration-lastest-work__link:hover {
@@ -458,7 +471,6 @@ body {
 }
 
 .demonstration-lastest-work__link::after {
-    display: inline-block;
     font-family: 'icomoon' !important;
     speak: none;
     font-style: normal;
@@ -471,4 +483,12 @@ body {
     content: "\f105";
 
     margin-left: 12px;
+}
+
+.b-tab {
+    display: none;
+}
+
+.b-tab.active {
+    display: block;
 }
