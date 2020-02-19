@@ -34,6 +34,16 @@ button {
     border-radius: 2px;
 }
 
+.get:hover {
+    border: 2px solid #c7c7c7;
+    color: #c7c7c7;
+}
+
+.get:active {
+    border: 2px solid #a1a1a1;
+    color: #a1a1a1;
+}
+
 ul, li {
     display: block;
 
@@ -46,7 +56,6 @@ ul, li {
 h1, h2, h2, h3, h4, h5 {
     font-family: Montserrat;
     font-size: 20px;
-    font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -57,34 +66,31 @@ h1 {
     font-size: 48px;
     color: #ffffff;
     line-height: 52px;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    text-transform: uppercase;
 }
 
 h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    text-transform: uppercase;
 }
 
 h4 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    text-transform: uppercase;
 }
 
 h5 {
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
-    text-transform: uppercase;
 }
 
 hr {
@@ -148,6 +154,8 @@ body {
 
 .header .main-titles__item_tagline {
     font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: capitalize;
     color: #fff;
 
     margin-bottom: 50px;
@@ -484,3 +492,30 @@ body {
 
     margin-left: 12px;
 }
+
+/* Стили для work-order */
+
+.work-order {
+    padding: 90px 0 100px 0;
+
+    background:  linear-gradient(to top, rgba(191, 48, 28, 0.6), rgba(191, 48, 28, 0.6)), #c9c9c9 url("../img/work-order__bg-img.png") no-repeat center;
+    background-size: cover;
+}
+
+.work-order__title {
+    margin-bottom: 44px;
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #ffffff;
+}
+
+.work-order__popup-btn {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 400;
+    
+    padding: 9px 25px;
+}
+
