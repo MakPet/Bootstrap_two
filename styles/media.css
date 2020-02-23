@@ -35,11 +35,19 @@
     .lastest-work {
         padding: 97px 0 75px 0;
     }
+
+    .post__img-wrapper {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 768px) {
     .demonstration-lastest-work__link-wrapper {
         padding: 55px 10px 10px 10px;
+    }
+
+    .post__data-month-wrapper {
+        margin-bottom: 25px;
     }
 }
 
