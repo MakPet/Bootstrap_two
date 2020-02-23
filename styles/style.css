@@ -537,6 +537,17 @@ body {
     margin-bottom: 27px;
 }
 
+.post:not(:last-child) {
+    margin-bottom: 38px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #dddddd; 
+}
+
+.post:hover .post__title,
+.post:hover .post__author-title_red {
+    transition: all 1s;
+    color: #c0301c;
+}
 
 .post__img-inner {
     max-width: 445px;
@@ -571,20 +582,24 @@ body {
     margin-bottom: 16px;
 }
 
-.post__data-month {
+.post__data-month-inner {
     max-width: 80px;
     width: 100%;
     min-height: 80px;
 
-    margin-bottom: 0px;
     padding: 0 4px;
 
+    border: 2px solid #555555;
+}
+
+.post__data-month {
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 1.4px;
     color: #777777;
-    border: 2px solid #555555;
+
+    margin-bottom: 0px;
 }
 
 .post__data-month_big {
@@ -593,7 +608,6 @@ body {
 }
 
 .post__title {
-    color: #c0301c;
     text-align: left;
 }
 
@@ -603,10 +617,6 @@ body {
     font-style: italic;
     line-height: 24px;
     color: #777777;
-}
-
-.post__author-title_red {
-    color: #c0301c;
 }
 
 .post__main-text-wrapper {
@@ -624,13 +634,13 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    color: #c0301c;
+    color: #777777;
 }
 
-.post__link:hover {
+a.post__link:hover {
     color: #ad2c1a;
 }
 
-.post__link:hover {
+a.post__link:active {
     color: #9c2919;
 }
