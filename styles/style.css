@@ -368,6 +368,10 @@ body {
     padding: 97px 0 95px 0;
 }
 
+.lastest-work__title {
+    margin-bottom: 27px;
+}
+
 .lastest-work__nav {
     margin-bottom: 66px;
 }
@@ -519,3 +523,114 @@ body {
     padding: 9px 25px;
 }
 
+/* Стили для blog*/
+
+.blog {
+    padding: 93px 0 100px 0;
+}
+
+.blog__welcome {
+    margin-bottom: 65px;
+}
+
+.blog__welcome-title {
+    margin-bottom: 27px;
+}
+
+
+.post__img-inner {
+    max-width: 445px;
+
+    position: relative;
+    
+    overflow: hidden;
+}
+
+.post__img-inner::before {
+    content: "";
+    display: block;
+    padding-bottom: 70%;
+}
+
+.post__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: inline;
+    width: auto;
+    min-width: 1px;
+    max-width: 100%;
+    height: initial;
+    min-height: 1px;
+    max-height: 100%;
+}
+
+.post__welcome {
+    margin-bottom: 16px;
+}
+
+.post__data-month {
+    max-width: 80px;
+    width: 100%;
+    min-height: 80px;
+
+    margin-bottom: 0px;
+    padding: 0 4px;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    color: #777777;
+    border: 2px solid #555555;
+}
+
+.post__data-month_big {
+    font-size: 26px;
+    letter-spacing: 2.4px;
+}
+
+.post__title {
+    color: #c0301c;
+    text-align: left;
+}
+
+.post__author-title {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    color: #777777;
+}
+
+.post__author-title_red {
+    color: #c0301c;
+}
+
+.post__main-text-wrapper {
+    margin-bottom: 19px;
+}
+
+.post__main-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.post__link {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #c0301c;
+}
+
+.post__link:hover {
+    color: #ad2c1a;
+}
+
+.post__link:hover {
+    color: #9c2919;
+}
