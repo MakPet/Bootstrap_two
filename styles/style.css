@@ -644,3 +644,68 @@ a.post__link:hover {
 a.post__link:active {
     color: #9c2919;
 }
+
+/* Стили для our-partners */
+
+.our-partners {
+    padding: 98px 0px 100px 0; 
+
+    background-color: #f8f8f8;
+}
+
+.our-partners-logo__inner {
+    margin-bottom: 62px;
+}
+
+.our-partners__logo {
+    max-width: 160px;
+    height: auto;
+}
+
+.our-partners-slider__review {
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.our-partners-slider__name {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.our-partners-slider  .slick-slide {
+    float: inherit;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.our-partners-slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: -42px;
+}
+
+.our-partners-slider .slick-dots li {
+    width: 13px;
+    height: 13px;
+}
+
+.our-partners-slider .slick-dots li button {
+    width: 13px;
+    height: 13px;
+
+    background-color: #dddddd;
+    border-radius: 50%;
+}
+
+.our-partners-slider .slick-dots li.slick-active button {
+    background-color: #c0301c;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
