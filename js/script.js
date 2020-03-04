@@ -29,7 +29,6 @@ $(document).ready(function(){
   
 }); // document ready
 
-
 $(document).ready(function(){
   	$('.about-us__slider').slick({
   		infinite: false,
@@ -64,5 +63,14 @@ $(document).ready(function(){
 	    		}
 	    	}
 	    ]
+	});
+});
+
+$(document).ready(function(){
+  	$('.our-partners__slider').slick({
+  		arrows: false,
+  		dots: true,
+  		autoplay: true,
+	    autoplaySpeed: 3000
 	});
 });
