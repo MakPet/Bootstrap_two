@@ -326,6 +326,11 @@ body {
 
 .about-us .social__link:hover {
     background-color: #c0301c;
+    color: #fff;
+}
+
+.about-us .social__link:active {
+    color: #bdbdbd;
 }
 
 .about-us .social__link.icon-facebook {
@@ -817,13 +822,13 @@ a.post__link:active {
 }
 
 .contact-and-form__submit:hover {
-    border: 1px solid #2e2e2e;
-    color: #2e2e2e;
+    border: 1px solid #8f8f8f;
+    color: #8f8f8f;
 }
 
 .contact-and-form__submit:active {
-    border: 1px solid #141414;
-    color: #141414;
+    border: 1px solid #b2cca5;
+    color: #b2cca5;
 } 
 
 .contact-and-form__note {
@@ -834,4 +839,55 @@ a.post__link:active {
 
 .contact-and-form__note_red {
     color: #c0301c; 
+}
+
+footer {
+    padding: 100px 0px 96px 0px; 
+    background-color: #c0301c;
+}
+
+.footer__social {
+    margin-bottom: 30px;
+}
+
+.footer__social-link {
+    width: 35px;
+    height: 35px;
+
+    margin: 0 7px;
+
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.footer__social-link:hover {
+    border: 2px solid #bdbdbd;
+    color: #bdbdbd;
+}
+
+.footer__social-link:active {
+    border: 2px solid #a3a3a3;
+    color: #a3a3a3;
+}
+
+.footer__social-link::before {
+    font-family: 'icomoon' !important;
+    font-size: 17px;
+    font-weight: normal;
+    content: "\f099";
+
+    position: relative;
+    left: 1px;
+}
+
+.footer__hr {
+    background-color: #ffffff;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
